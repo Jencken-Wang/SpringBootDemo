@@ -1,0 +1,21 @@
+spring:
+#  profiles:
+    #    active: production
+#    active: test
+  application:
+    name: resource-service
+    version: 1.0.0
+
+
+server:
+  port: 1024
+  servlet:
+    context-path: /wzg
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://localhost:1024/wzg/eureka/

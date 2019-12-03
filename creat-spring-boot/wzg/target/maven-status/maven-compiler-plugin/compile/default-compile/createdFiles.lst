@@ -1,0 +1,8 @@
+com\wzg\creat\user\service\Impl\UserServiceImpl.class
+com\wzg\creat\user\controller\UserController.class
+com\wzg\creat\user\model\entity\User.class
+com\wzg\creat\EurekaServerApplication.class
+com\wzg\creat\user\model\mapper\UserMapper.class
+com\wzg\creat\user\service\UserService.class
+com\wzg\creat\swagger2.class
+com\wzg\creat\user\service\Bean\UserBean.class
